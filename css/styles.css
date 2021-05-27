@@ -1,19 +1,4 @@
 @charset "UTF-8";
-
-/*!
-* Start Bootstrap - Agency v7.0.0 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-
-
-/*!
- * Bootstrap v5.0.1 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
-
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -2939,10 +2924,13 @@ p {
     color: #ffc800
 }
 
+
+/* Hier ist die Navbar mit aufschlag oben */
+
 @media (min-width:992px) {
     #mainNav {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         border: none;
         background-color: #212529;
         transition: padding-top .3s ease-in-out, padding-bottom .3s ease-in-out
@@ -2965,7 +2953,7 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-image: url(../assets/img/test.png);
+    background-image: url(../assets/img/logo.jpeg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
